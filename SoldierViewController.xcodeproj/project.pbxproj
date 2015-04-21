@@ -15,6 +15,17 @@
 		B295B9EC1A7F5825000598E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B295B9EB1A7F5825000598E2 /* Images.xcassets */; };
 		B295B9EF1A7F5825000598E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B295B9ED1A7F5825000598E2 /* LaunchScreen.xib */; };
 		B295B9FB1A7F5825000598E2 /* SoldierViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B295B9FA1A7F5825000598E2 /* SoldierViewControllerTests.m */; };
+		B295BA381A7F5BB0000598E2 /* HBModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B295BA371A7F5BB0000598E2 /* HBModalViewController.m */; };
+		B295BA431A7F5BC4000598E2 /* CLLRefreshCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B295BA3B1A7F5BC4000598E2 /* CLLRefreshCircleView.m */; };
+		B295BA441A7F5BC4000598E2 /* CLLRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B295BA3D1A7F5BC4000598E2 /* CLLRefreshFooterView.m */; };
+		B295BA451A7F5BC4000598E2 /* CLLRefreshHeadController.m in Sources */ = {isa = PBXBuildFile; fileRef = B295BA3F1A7F5BC4000598E2 /* CLLRefreshHeadController.m */; };
+		B295BA461A7F5BC4000598E2 /* CLLRefreshHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B295BA411A7F5BC4000598E2 /* CLLRefreshHeadView.m */; };
+		B295BA921A7F6E19000598E2 /* HBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B295BA911A7F6E19000598E2 /* HBTableViewController.m */; };
+		B295BB121A80713C000598E2 /* HBModal.m in Sources */ = {isa = PBXBuildFile; fileRef = B295BB111A80713C000598E2 /* HBModal.m */; };
+		B295BB151A807166000598E2 /* HBTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B295BB141A807166000598E2 /* HBTableViewDataSource.m */; };
+		B295BB181A80718E000598E2 /* HBTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B295BB171A80718E000598E2 /* HBTableViewDelegate.m */; };
+		B295BB1B1A8077BD000598E2 /* HBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B295BB1A1A8077BD000598E2 /* HBTableViewCell.m */; };
+		B295BB1E1A80A8B8000598E2 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B295BB1D1A80A8B8000598E2 /* TestController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +54,28 @@
 		B295B9F41A7F5825000598E2 /* SoldierViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoldierViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B295B9F91A7F5825000598E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B295B9FA1A7F5825000598E2 /* SoldierViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoldierViewControllerTests.m; sourceTree = "<group>"; };
+		B295BA361A7F5BB0000598E2 /* HBModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBModalViewController.h; sourceTree = "<group>"; };
+		B295BA371A7F5BB0000598E2 /* HBModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBModalViewController.m; sourceTree = "<group>"; };
+		B295BA3A1A7F5BC4000598E2 /* CLLRefreshCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshCircleView.h; sourceTree = "<group>"; };
+		B295BA3B1A7F5BC4000598E2 /* CLLRefreshCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshCircleView.m; sourceTree = "<group>"; };
+		B295BA3C1A7F5BC4000598E2 /* CLLRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshFooterView.h; sourceTree = "<group>"; };
+		B295BA3D1A7F5BC4000598E2 /* CLLRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshFooterView.m; sourceTree = "<group>"; };
+		B295BA3E1A7F5BC4000598E2 /* CLLRefreshHeadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshHeadController.h; sourceTree = "<group>"; };
+		B295BA3F1A7F5BC4000598E2 /* CLLRefreshHeadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshHeadController.m; sourceTree = "<group>"; };
+		B295BA401A7F5BC4000598E2 /* CLLRefreshHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLRefreshHeadView.h; sourceTree = "<group>"; };
+		B295BA411A7F5BC4000598E2 /* CLLRefreshHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLRefreshHeadView.m; sourceTree = "<group>"; };
+		B295BA901A7F6E19000598E2 /* HBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTableViewController.h; sourceTree = "<group>"; };
+		B295BA911A7F6E19000598E2 /* HBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTableViewController.m; sourceTree = "<group>"; };
+		B295BB101A80713C000598E2 /* HBModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBModal.h; sourceTree = "<group>"; };
+		B295BB111A80713C000598E2 /* HBModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBModal.m; sourceTree = "<group>"; };
+		B295BB131A807166000598E2 /* HBTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTableViewDataSource.h; sourceTree = "<group>"; };
+		B295BB141A807166000598E2 /* HBTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTableViewDataSource.m; sourceTree = "<group>"; };
+		B295BB161A80718E000598E2 /* HBTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTableViewDelegate.h; sourceTree = "<group>"; };
+		B295BB171A80718E000598E2 /* HBTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTableViewDelegate.m; sourceTree = "<group>"; };
+		B295BB191A8077BD000598E2 /* HBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTableViewCell.h; sourceTree = "<group>"; };
+		B295BB1A1A8077BD000598E2 /* HBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTableViewCell.m; sourceTree = "<group>"; };
+		B295BB1C1A80A8B8000598E2 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		B295BB1D1A80A8B8000598E2 /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,16 +117,31 @@
 		B295B9DA1A7F5825000598E2 /* SoldierViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B295BA391A7F5BC4000598E2 /* RefreshHeadView */,
+				B295BA361A7F5BB0000598E2 /* HBModalViewController.h */,
+				B295BA371A7F5BB0000598E2 /* HBModalViewController.m */,
+				B295BA901A7F6E19000598E2 /* HBTableViewController.h */,
+				B295BA911A7F6E19000598E2 /* HBTableViewController.m */,
 				B295B9DF1A7F5825000598E2 /* AppDelegate.h */,
 				B295B9E01A7F5825000598E2 /* AppDelegate.m */,
 				B295B9E21A7F5825000598E2 /* MasterViewController.h */,
 				B295B9E31A7F5825000598E2 /* MasterViewController.m */,
 				B295B9E51A7F5825000598E2 /* DetailViewController.h */,
 				B295B9E61A7F5825000598E2 /* DetailViewController.m */,
+				B295BB101A80713C000598E2 /* HBModal.h */,
+				B295BB111A80713C000598E2 /* HBModal.m */,
+				B295BB131A807166000598E2 /* HBTableViewDataSource.h */,
+				B295BB141A807166000598E2 /* HBTableViewDataSource.m */,
+				B295BB161A80718E000598E2 /* HBTableViewDelegate.h */,
+				B295BB171A80718E000598E2 /* HBTableViewDelegate.m */,
+				B295BB191A8077BD000598E2 /* HBTableViewCell.h */,
+				B295BB1A1A8077BD000598E2 /* HBTableViewCell.m */,
 				B295B9E81A7F5825000598E2 /* Main.storyboard */,
 				B295B9EB1A7F5825000598E2 /* Images.xcassets */,
 				B295B9ED1A7F5825000598E2 /* LaunchScreen.xib */,
 				B295B9DB1A7F5825000598E2 /* Supporting Files */,
+				B295BB1C1A80A8B8000598E2 /* TestController.h */,
+				B295BB1D1A80A8B8000598E2 /* TestController.m */,
 			);
 			path = SoldierViewController;
 			sourceTree = "<group>";
@@ -122,6 +170,21 @@
 				B295B9F91A7F5825000598E2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B295BA391A7F5BC4000598E2 /* RefreshHeadView */ = {
+			isa = PBXGroup;
+			children = (
+				B295BA3A1A7F5BC4000598E2 /* CLLRefreshCircleView.h */,
+				B295BA3B1A7F5BC4000598E2 /* CLLRefreshCircleView.m */,
+				B295BA3C1A7F5BC4000598E2 /* CLLRefreshFooterView.h */,
+				B295BA3D1A7F5BC4000598E2 /* CLLRefreshFooterView.m */,
+				B295BA3E1A7F5BC4000598E2 /* CLLRefreshHeadController.h */,
+				B295BA3F1A7F5BC4000598E2 /* CLLRefreshHeadController.m */,
+				B295BA401A7F5BC4000598E2 /* CLLRefreshHeadView.h */,
+				B295BA411A7F5BC4000598E2 /* CLLRefreshHeadView.m */,
+			);
+			path = RefreshHeadView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,9 +288,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				B295B9E11A7F5825000598E2 /* AppDelegate.m in Sources */,
+				B295BA461A7F5BC4000598E2 /* CLLRefreshHeadView.m in Sources */,
+				B295BB181A80718E000598E2 /* HBTableViewDelegate.m in Sources */,
+				B295BB151A807166000598E2 /* HBTableViewDataSource.m in Sources */,
+				B295BB1E1A80A8B8000598E2 /* TestController.m in Sources */,
+				B295BA441A7F5BC4000598E2 /* CLLRefreshFooterView.m in Sources */,
+				B295BA921A7F6E19000598E2 /* HBTableViewController.m in Sources */,
 				B295B9E41A7F5825000598E2 /* MasterViewController.m in Sources */,
+				B295BA431A7F5BC4000598E2 /* CLLRefreshCircleView.m in Sources */,
 				B295B9DE1A7F5825000598E2 /* main.m in Sources */,
+				B295BB121A80713C000598E2 /* HBModal.m in Sources */,
+				B295BA451A7F5BC4000598E2 /* CLLRefreshHeadController.m in Sources */,
 				B295B9E71A7F5825000598E2 /* DetailViewController.m in Sources */,
+				B295BA381A7F5BB0000598E2 /* HBModalViewController.m in Sources */,
+				B295BB1B1A8077BD000598E2 /* HBTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +494,7 @@
 				B295BA001A7F5825000598E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B295BA011A7F5825000598E2 /* Build configuration list for PBXNativeTarget "SoldierViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +503,7 @@
 				B295BA031A7F5825000598E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

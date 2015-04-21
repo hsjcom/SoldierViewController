@@ -8,6 +8,10 @@
 
 #import "DetailViewController.h"
 
+#import "HBModalViewController.h"
+#import "HBTableViewController.h"
+#import "TestController.h"
+
 @interface DetailViewController ()
 
 @end
@@ -36,6 +40,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+    
+    
+//    HBModalViewController *modalViewController = [[HBModalViewController alloc] init];
+//    [self.navigationController pushViewController:modalViewController animated:YES];
+    
+//    HBTableViewController *tableviewController = [[HBTableViewController alloc] init];
+//    [self.navigationController pushViewController:tableviewController animated:YES];
+    
+    TestController *testController = [[TestController alloc] init];
+    [self.navigationController pushViewController:testController animated:YES];
+
 }
 
 - (void)didReceiveMemoryWarning {

@@ -9,6 +9,8 @@
 #import "MasterViewController.h"
 #import "DetailViewController.h"
 
+#import "HBModalViewController.h"
+
 @interface MasterViewController ()
 
 @property NSMutableArray *objects;
